@@ -43,9 +43,7 @@ The Makefile has several targets:
 - `gdb` - A target to run gdb on the testFloatx executable. This will automatically set a breakpoint at the first instruction in `doubleToFloatx`, and run with command line arguments 16 and 4. *You will need to type in values to convert since stdin is connected to the keyboard in this case*.
 - `test` - Runs testFloatx using some easy to debug formats such as 32 8 (for standard `float` format), 64 11 (for standard double format) and 16 4 which does not map to an existing floating point format. The conversion is run on all the numbers in test1.txt which contains several test cases that are useful for debugging.
 
-## Coding the project
-
-Here is an example of the output produced when your program is coded correctly:
+Here is an example of the output produced correctly:
 
 ```txt
 >./testFloatx 32 8 <test1.txt
