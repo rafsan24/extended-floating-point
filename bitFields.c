@@ -1,4 +1,3 @@
-// this code is from Professor Bartenstein
 #include "bitFields.h"
 #include <assert.h>
 
